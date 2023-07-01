@@ -6,6 +6,7 @@ function Header() {
   return (
     <header>
       <div className='app-name'>Blog App</div>
+      <a class="create-blog" href="/addblog"> Create Blog </a>
       {/* <Link to={'/addblog'}>
           <button className='create-blog'>Create Blog</button>
         </Link> */}

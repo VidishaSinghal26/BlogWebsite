@@ -9,18 +9,19 @@ function Card({ text, description,image, updateMode, deleteTodo }) {
   }
   return (
     <div className="card">
-      <img className="image" src={image} alt="" style={{width:"280px"}}/>
-      <h1>{text}</h1>
-          <h3>{description}</h3>
+      <img className="image" src={image} alt="" style={{width:"100%"}}/>
+      <h3>{text}</h3>
+          <h5>{description}</h5>
           <div>
-          <div className='create-blog'>Update Blog</div>
-          <div className='create-blog'>Delete Blog</div>
+          <button className='create-button' onClick={updateMode}>Read Blog</button>
+          <button  style={{marginLeft:'35px'}}className='create-button' onClick={deleteTodo}>Delete Blog</button>
           </div>
-            <div className="icons">
+            {/* <div className="icons">
               <BiEdit className="icon" onClick={updateMode} />
               <AiFillDelete className="icon" onClick={deleteTodo} />
-            </div>
+            </div> */}
           </div>
+
   );
 }
 

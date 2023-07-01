@@ -22,6 +22,7 @@ const addTodo = (text, description,image,setImage, setDescription, setText, setT
       setImage("");
       setText("");
       getAllTodo(setTodo);
+      window.location.href='/';
     })
     .catch((err) => {
       console.log(err.message);

@@ -1,6 +1,14 @@
 .card{
     width: 300px;
-    height: 400px;
-   background-color:  #2c5245;
+    height: 350px;
+   background-color:  #96afcc;
    border-radius: 10px;
+   margin-left: 20px;
+   padding: 10px;
+}
+.create-button{
+    padding: 8px  ;
+    margin: 10px;
+    border-radius: 10px;
+
 }
