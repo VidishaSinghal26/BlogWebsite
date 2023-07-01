@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-const blogSchema = new mongoose.Schema({
+const todoSchema=new mongoose.Schema({
     text:{
         type:String,
         require:true
@@ -8,7 +8,11 @@ const blogSchema = new mongoose.Schema({
     description:{
         type:String,
         require:true
+    },
+    image:{
+        type:String,
+        require:true
     }
 })
 
-module.exports=mongoose.model('blog',blogSchema)
+module.exports=mongoose.model('Todo',todoSchema)

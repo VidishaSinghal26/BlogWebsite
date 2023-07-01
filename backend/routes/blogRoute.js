@@ -1,12 +1,11 @@
 const {Router}=require('express')
-
-const {getblog,saveblog,updateblog,deleteblog}=require('../controller/blogContoller')
+const {getTodo,saveTodo,updateTodo,deleteTodo}=require('../controller/blogContoller')
 
 const router=Router();
 
-router.get('/',getblog)
-router.post('/save',saveblog)
-router.post('/update',updateblog)
-router.post('/delete',deleteblog)
+router.get('/',getTodo)
+router.post('/save',saveTodo)
+router.post('/update',updateTodo)
+router.post('/delete',deleteTodo)
 
 module.exports= router;
