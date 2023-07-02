@@ -31,7 +31,7 @@ function HomeScreen() {
         <div className='cards'>
           {todo.map((item) => (
             <Card
-              key={item._id}
+              _id={item._id}
               text={item.text}
               description={item.description}
               image={item.image}
