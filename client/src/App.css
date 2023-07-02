@@ -1,11 +1,37 @@
 .cards{
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  column-gap: 50px;
+  grid-template-columns: 300px 300px 300px ;
   row-gap: 50px;
+  margin-top: 5%;
 }
-.app{
+/* .app{
   background:#e4e6f0;
-  height: 669px;
+  /* background: red; */
+  /* height: 669px; */
+/* } */ 
+.padding{
+  padding-top: 11%;
+}
+.background{
+  background-image: url('./images/blog-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+@media screen and (max-width:1093px) {
+  .cards{
+  display: grid;
+  grid-template-columns: 300px 300px  ;
+  }
+}
+@media screen and (max-width:760px) {
+  .cards{
+  display: grid;
+  grid-template-columns: 300px  ;
+  }
 }

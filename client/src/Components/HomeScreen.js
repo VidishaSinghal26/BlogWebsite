@@ -26,8 +26,6 @@ function HomeScreen() {
 
   return(
     <div>
-         
-        
         <div className='cards'>
           {todo.map((item) => (
             <Card
@@ -42,6 +40,7 @@ function HomeScreen() {
             />
           ))}
         </div>
+        <div className="padding"></div>
     </div>
   );
 }

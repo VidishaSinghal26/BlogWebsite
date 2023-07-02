@@ -5,8 +5,9 @@ import AddBlog from './AddBlog'
 function Header() {
   return (
     <header>
-      <div className='app-name'>Blog App</div>
+      <a class="app-name" href="/">The InfoSphere</a>
       <a class="create-blog" href="/addblog"> Create Blog </a>
+      {/* <div className='create-blog'><Link to={'/addblog'}>Create Blog</Link></div> */}
       {/* <Link to={'/addblog'}>
           <button className='create-blog'>Create Blog</button>
         </Link> */}
