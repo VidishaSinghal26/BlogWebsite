@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { BiEdit } from "react-icons/bi";
-import { AiFillDelete } from "react-icons/ai";
 import './Card.css'
 import {Link} from 'react-router-dom'
-function Card({ _id,text, description,image, updateMode, deleteTodo }) {
+function Card({ _id,text, description,image, deleteTodo }) {
   const isUpdating = true;
   return (
    
