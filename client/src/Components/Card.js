@@ -8,7 +8,7 @@ function Card({ _id,text, description,image, deleteTodo }) {
     <div className="card">
       <img className="image" src={image} alt="" />
       <h3>{text.substring(0,1).toUpperCase()+text.substring(1,15)+"..."}</h3>
-          <p className="blog-desc">{description.substring(0,130)+" ..."}</p>
+          <p className="blog-desc">{description.substring(0,70)+"..."}</p>
           <div>
           <Link to={'/readblog'} state={{
               isUpdating: `${isUpdating}`,
