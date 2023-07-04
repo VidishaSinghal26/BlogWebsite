@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 function Card({ _id,text, description,image, deleteTodo }) {
   const isUpdating = true;
   return (
-   
     <div className="card">
       <img className="image" src={image} alt="" />
       <h3>{text.substring(0,1).toUpperCase()+text.substring(1,15)+"..."}</h3>

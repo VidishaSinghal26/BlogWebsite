@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-//import Header from './Components/Header'
 import Card from '../Components/Card'
 import "../App.css";
 import { getAllTodo, deleteTodo } from "../utils/HandleApi";
-// import { BrowserRouter,Routes,Route } from "react-router-dom";
-// import AddBlog from "./Components/AddBlog";
+
 function HomeScreen() {
   const [todo, setTodo] = useState([]);
 
