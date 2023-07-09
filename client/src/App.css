@@ -8,9 +8,9 @@
   margin-top: 5%;
 
 }
-.card:hover{
+/* .card:hover{
   transform: scale(1.1,1.1);
-}
+} */
 /* .app{
   /* width: min(100%,950px); */
   /* background:#e4e6f0; */
@@ -30,6 +30,7 @@
 
 @media screen and (max-width:1093px) {
   .cards{
+    .col-1 {width: 8.33%;}
   display: grid;
   grid-template-columns: 300px 300px  ;
   }

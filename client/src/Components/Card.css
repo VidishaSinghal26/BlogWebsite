@@ -6,6 +6,11 @@
    margin-left: 20px;
    padding: 10px;
    object-fit: cover;
+   box-shadow:  0px -2px 10px rgba(0, 0, 0, 0.77);
+}
+.card:hover{
+    
+    transform: scale(1.1,1.1);
 }
 .create-button{
     padding: 8px  ;
