@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './Card.css'
 import {Link} from 'react-router-dom'
 function Card({ _id,text, description,image, deleteTodo }) {
