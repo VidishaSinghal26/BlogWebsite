@@ -6,12 +6,17 @@
   grid-template-columns: 300px 300px 300px ;
   row-gap: 50px;
   margin-top: 5%;
+
+}
+.card:hover{
+  transform: scale(1.1,1.1);
 }
 /* .app{
-  background:#e4e6f0;
+  /* width: min(100%,950px); */
+  /* background:#e4e6f0; */
   /* background: red; */
   /* height: 669px; */
-/* } */ 
+ /* }  */
 .padding{
   padding-top: 11%;
 }
@@ -20,8 +25,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
+
 
 @media screen and (max-width:1093px) {
   .cards{
